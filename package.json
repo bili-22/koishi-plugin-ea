@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-ea",
-  "description": "",
-  "version": "0.0.1",
+  "description": "EA账号管理",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,7 +9,6 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
@@ -17,5 +16,24 @@
   ],
   "peerDependencies": {
     "koishi": "4.15.6"
+  },
+  "dependencies": {
+    "async-lock": "^1.4.0",
+    "superagent": "^8.1.2"
+  },
+  "devDependencies": {
+    "@types/async-lock": "^1.4.1",
+    "@types/superagent": "^4.1.20"
+  },
+  "koishi": {
+    "category": "manage",
+    "description": {
+      "zh": "EA账号管理"
+    },
+    "service": {
+      "implements": [
+        "ea"
+      ]
+    }
   }
 }
