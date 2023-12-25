@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-ea",
   "description": "EA账号管理",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": {
@@ -22,12 +22,12 @@
     "koishi": "4.15.6"
   },
   "dependencies": {
-    "async-lock": "^1.4.0",
+    "async-lock": "^1.4.1",
     "superagent": "^8.1.2"
   },
   "devDependencies": {
-    "@types/async-lock": "^1.4.1",
-    "@types/superagent": "^4.1.20"
+    "@types/async-lock": "^1.4.2",
+    "@types/superagent": "^4.1.24"
   },
   "koishi": {
     "category": "manage",
